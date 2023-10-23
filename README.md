@@ -9,9 +9,9 @@ The repository is organized into folders, each corresponding to a specific Codil
 ## Challenges
 
 - **Lesson 1 - Iterations:** Solutions to challenges related to loops and iterations.
-- **[Pi Code Challange](https://app.codility.com/programmers/challenges/pi_challenge_2023/)
-- **[The Coder of Rivia](https://app.codility.com/programmers/challenges/the_coder_of_rivia_2021/)
-- **[Year Of The Tiger](https://app.codility.com/programmers/challenges/year_of_the_tiger_2022/)
+- [Pi Code Challange](https://app.codility.com/programmers/challenges/pi_challenge_2023/)
+- [The Coder of Rivia](https://app.codility.com/programmers/challenges/the_coder_of_rivia_2021/)
+- [Year Of The Tiger](https://app.codility.com/programmers/challenges/year_of_the_tiger_2022/)
 
 ## Usage
 
