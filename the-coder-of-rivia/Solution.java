@@ -1,14 +1,29 @@
 public class Solution {
 
 	public static void main(String[] args) {
-		// Input matrix
-		int[] matrix = {0, 2, 3, 4, 1, 1, 1, 3, 1};
-		int[] result = solution(matrix);
-
-		// Display the result
-		for(int i = 0; i < result.length; i++){
-			System.out.println(result[i]);
-		}
+		// Test case 1: Matrix with maximum sum already
+		int[] matrix1 = {5, 6, 7, 2, 9, 8, 4, 3, 1};
+		int[] result1 = solution(matrix1);
+		System.out.println("Test Case 1:");
+		displayMatrix(result1);
+		
+		// Test case 2: Matrix with varying row and column sums
+		int[] matrix2 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+		int[] result2 = solution(matrix2);
+		System.out.println("Test Case 2:");
+		displayMatrix(result2);
+		
+		// Test case 3: Matrix with equal row sums but different column sums
+		int[] matrix3 = {1, 4, 7, 2, 5, 8, 3, 6, 9};
+		int[] result3 = solution(matrix3);
+		System.out.println("Test Case 3:");
+		displayMatrix(result3);
+		
+		// Test case 4: Matrix with equal column sums but different row sums
+		int[] matrix4 = {1, 2, 3, 6, 5, 4, 9, 8, 7};
+		int[] result4 = solution(matrix4);
+		System.out.println("Test Case 4:");
+		displayMatrix(result4);
 	}
 
 	public static int[] solution(int[] T) {
@@ -55,5 +70,16 @@ public class Solution {
 		
 		// Return the modified output array
 		return outputArray;
+	}
+
+	public static void displayMatrix(int[] matrix) {
+		// Display a 3x3 matrix
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				System.out.print(matrix[3 * i + j] + " ");
+			}
+			System.out.println();
+		}
+		System.out.println();
 	}
 }
