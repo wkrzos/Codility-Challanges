@@ -36,11 +36,27 @@ public class Solution {
 
             // Update the maximum occurrences value
             maxOccurrences = Math.max(maxOccurrences, occurrences[chars[0]][chars[1]][chars[2]]);
-            maxOccurrences = Math.max(maxOccurrences, occurrences[chars[1]][chars[0]][chars[2]);
-            maxOccurrences = Math.max(maxOccurrences, occurrences[chars[0]][chars[2]][chars[1]);
+            maxOccurrences = Math.max(maxOccurrences, occurrences[chars[1]][chars[0]][chars[2]]);
+            maxOccurrences = Math.max(maxOccurrences, occurrences[chars[0]][chars[2]][chars[1]]);
         }
 
         // Return the maximum occurrences found
         return maxOccurrences;
+    }
+
+    public static void main(String[] args) {
+        // Test cases
+        Solution solution = new Solution();
+        String[] test1 = {"abc", "def", "ghi", "jkl"};
+        String[] test2 = {"aaa", "bbb", "ccc"};
+        String[] test3 = {"aba", "aba", "aaa", "aca"};
+
+        int result1 = solution.solution(test1);
+        int result2 = solution.solution(test2);
+        int result3 = solution.solution(test3);
+
+        System.out.println("Test Case 1: " + result1); // Should output 1
+        System.out.println("Test Case 2: " + result2); // Should output 3
+        System.out.println("Test Case 3: " + result3); // Should output 4
     }
 }
