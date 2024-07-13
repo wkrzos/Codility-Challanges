@@ -1,10 +1,10 @@
 # Codility Challenges Solutions
 
-This repository contains my solutions to various coding challenges and exercises from [Codility](https://www.codility.com/). Codility is a platform that provides a wide range of programming tasks and algorithmic problems, which are often used in technical interviews and competitive programming.
+This repository contains my solutions to various coding challenges and exercises from [Codility](https://www.codility.com/).
 
 ## Contents
 
-The repository is organized into folders, each corresponding to a specific Codility lesson or category of challenges. The code is well-documented and thoroughly explained, making it a valuable resource for learning and improving your coding skills.
+The repository is organized into folders, each corresponding to a specific Codility lesson or category of challenges.
 
 ## Challenges
 
@@ -14,7 +14,7 @@ The repository is organized into folders, each corresponding to a specific Codil
 
 ## Usage
 
-You can browse the folders and find solutions to specific Codility challenges that interest you. Each solution comes with a clear explanation of the problem, the approach taken, and the code implementation. You can use these solutions as a learning resource or reference for solving similar problems in your coding journey.
+You can browse the folders and find solutions to specific Codility challenges that interest you. You can use these solutions as a learning resource or reference for solving similar problems in your coding journey.
 
 ## Contributing
 
